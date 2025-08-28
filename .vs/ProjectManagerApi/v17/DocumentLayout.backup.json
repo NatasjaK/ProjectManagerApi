@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\natas\\source\\repos\\ProjectManagerApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB2E73-AF45-415F-ABFB-0A7FFFE1F03C}|ProjectManagerApi\\ProjectManagerApi.csproj|c:\\users\\natas\\source\\repos\\projectmanagerapi\\projectmanagerapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{81EB2E73-AF45-415F-ABFB-0A7FFFE1F03C}|ProjectManagerApi\\ProjectManagerApi.csproj|solutionrelative:projectmanagerapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB2E73-AF45-415F-ABFB-0A7FFFE1F03C}|ProjectManagerApi\\ProjectManagerApi.csproj|c:\\users\\natas\\source\\repos\\projectmanagerapi\\projectmanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81EB2E73-AF45-415F-ABFB-0A7FFFE1F03C}|ProjectManagerApi\\ProjectManagerApi.csproj|solutionrelative:projectmanagerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB2E73-AF45-415F-ABFB-0A7FFFE1F03C}|ProjectManagerApi\\ProjectManagerApi.csproj|c:\\users\\natas\\source\\repos\\projectmanagerapi\\projectmanagerapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB2E73-AF45-415F-ABFB-0A7FFFE1F03C}|ProjectManagerApi\\ProjectManagerApi.csproj|solutionrelative:projectmanagerapi\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB2E73-AF45-415F-ABFB-0A7FFFE1F03C}|ProjectManagerApi\\ProjectManagerApi.csproj|c:\\users\\natas\\source\\repos\\projectmanagerapi\\projectmanagerapi\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB2E73-AF45-415F-ABFB-0A7FFFE1F03C}|ProjectManagerApi\\ProjectManagerApi.csproj|solutionrelative:projectmanagerapi\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81EB2E73-AF45-415F-ABFB-0A7FFFE1F03C}|ProjectManagerApi\\ProjectManagerApi.csproj|c:\\users\\natas\\source\\repos\\projectmanagerapi\\projectmanagerapi\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81EB2E73-AF45-415F-ABFB-0A7FFFE1F03C}|ProjectManagerApi\\ProjectManagerApi.csproj|solutionrelative:projectmanagerapi\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\ProjectManagerApi\\ProjectManagerApi\\.gitignore",
+              "RelativeDocumentMoniker": "ProjectManagerApi\\.gitignore",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\ProjectManagerApi\\ProjectManagerApi\\.gitignore",
+              "RelativeToolTip": "ProjectManagerApi\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-28T11:26:01.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\ProjectManagerApi\\ProjectManagerApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectManagerApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\ProjectManagerApi\\ProjectManagerApi\\appsettings.json",
+              "RelativeToolTip": "ProjectManagerApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-28T08:30:14.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\ProjectManagerApi\\ProjectManagerApi\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "ProjectManagerApi\\Models\\Status.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\ProjectManagerApi\\ProjectManagerApi\\Models\\Status.cs",
+              "RelativeToolTip": "ProjectManagerApi\\Models\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T08:26:45.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\ProjectManagerApi\\ProjectManagerApi\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "ProjectManagerApi\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\ProjectManagerApi\\ProjectManagerApi\\Models\\Client.cs",
+              "RelativeToolTip": "ProjectManagerApi\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T08:26:37.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\natas\\source\\repos\\ProjectManagerApi\\ProjectManagerApi\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "ProjectManagerApi\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\natas\\source\\repos\\ProjectManagerApi\\ProjectManagerApi\\Models\\Project.cs",
+              "RelativeToolTip": "ProjectManagerApi\\Models\\Project.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T08:26:25.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
