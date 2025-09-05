@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProjectManagerApi.Data;
 
@@ -11,9 +12,11 @@ using ProjectManagerApi.Data;
 namespace ProjectManagerApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250902134324_UpdateProject_ClientsOwnersCurrency")]
+    partial class UpdateProject_ClientsOwnersCurrency
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -100,12 +103,12 @@ namespace ProjectManagerApi.Migrations
                     b.Property<bool>("IsCompleted")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("ProjectOwnerId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ProjectOwnerName")
+                    b.Property<string>("OwnerName")
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
+
+                    b.Property<int?>("ProjectOwnerId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime?>("StartDateUtc")
                         .HasColumnType("datetime2");
