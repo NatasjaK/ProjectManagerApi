@@ -12,7 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers()
     .AddJsonOptions(o =>
     {
-        o.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;          
+        o.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;         
         o.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull; 
     });
 
@@ -26,7 +26,7 @@ builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("frontend", p =>
     {
-        p.WithOrigins("http://localhost:5173", "http://localhost:3000") 
+        p.WithOrigins("http://localhost:5173", "http://localhost:3000")
          .AllowAnyHeader()
          .AllowAnyMethod();
     });
@@ -53,16 +53,29 @@ builder.Services.AddSwaggerGen(c =>
             Array.Empty<string>()
         }
     });
+
     c.CustomSchemaIds(t => (t.FullName ?? t.Name).Replace("+", "."));
 });
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+try
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    using var scope = app.Services.CreateScope();
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
 }
+
+catch (Exception ex)
+{
+    app.Logger.LogError(ex, "DB migrate failed");
+}
+
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "ProjectManager API v1");
+});
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -72,6 +85,9 @@ app.UseCors("frontend");
 app.UseApiKey();
 
 app.UseAuthorization();
+
 app.MapControllers();
+
+
 
 app.Run();
